@@ -1,0 +1,215 @@
+<ERROR_INFO>
+errID:2
+errStr:mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: php_network_getaddresses: getaddrinfo failed: 
+errFile:IWEB_PATH/db\driver\mysqli_class.php
+errLine:35
+errTime:15-06-23 11:57:53
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] php_network_getaddresses: getaddrinfo failed:  (trying to connect via tcp://localhost:3306)
+errFile:IWEB_PATH/db\driver\mysqli_class.php
+errLine:35
+errTime:15-06-23 11:57:53
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): php_network_getaddresses: getaddrinfo failed: 
+errFile:IWEB_PATH/db\driver\mysqli_class.php
+errLine:35
+errTime:15-06-23 11:57:53
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: php_network_getaddresses: getaddrinfo failed: 
+Line: 39
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:connect        	Class:IMysqli        	Type:->   	Line:58   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:134  	File:IWEB_PATH/web\model\model_class.php
+	Func:getObj         	Class:IModel         	Type:->   	Line:298  	File:IAPP_PATH/classes\checkrights.php
+	Func:isValidUser    	Class:CheckRights    	Type:::   	Line:117  	File:IAPP_PATH/classes\checkrights.php
+	Func:getUser        	Class:CheckRights    	Type:::   	Line:161  	File:IAPP_PATH/classes\checkrights.php
+	Func:checkUserRights	Class:CheckRights    	Type:::   	Line:22   	File:IAPP_PATH/controllers\site.php
+	Func:init           	Class:Site           	Type:->   	Line:132  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_seller_payment WHERE seller_id = 1 limit 1
+ -- Table 'sunupedu_shop.sunup_seller_payment' doesn't exist
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:134  	File:IWEB_PATH/web\model\model_class.php
+	Func:getObj         	Class:IModel         	Type:->   	Line:487  	File:IAPP_PATH/controllers\seller.php
+	Func:payment_conf   	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_seller_payment WHERE seller_id = 1 limit 1
+ -- Table 'sunupedu_shop.sunup_seller_payment' doesn't exist
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:134  	File:IWEB_PATH/web\model\model_class.php
+	Func:getObj         	Class:IModel         	Type:->   	Line:487  	File:IAPP_PATH/controllers\seller.php
+	Func:payment_conf   	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_seller_payment WHERE seller_id = 1 limit 1
+ -- Table 'sunupedu_shop.sunup_seller_payment' doesn't exist
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:134  	File:IWEB_PATH/web\model\model_class.php
+	Func:getObj         	Class:IModel         	Type:->   	Line:487  	File:IAPP_PATH/controllers\seller.php
+	Func:payment_conf   	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_seller_payment WHERE seller_id = 1 limit 1
+ -- Table 'sunupedu_shop.sunup_seller_payment' doesn't exist
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:134  	File:IWEB_PATH/web\model\model_class.php
+	Func:getObj         	Class:IModel         	Type:->   	Line:487  	File:IAPP_PATH/controllers\seller.php
+	Func:payment_conf   	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_seller_payment WHERE seller_id = 1 limit 1
+ -- Table 'sunupedu_shop.sunup_seller_payment' doesn't exist
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:134  	File:IWEB_PATH/web\model\model_class.php
+	Func:getObj         	Class:IModel         	Type:->   	Line:487  	File:IAPP_PATH/controllers\seller.php
+	Func:payment_conf   	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_seller_payment WHERE seller_id = 1 limit 1
+ -- Table 'sunupedu_shop.sunup_seller_payment' doesn't exist
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:134  	File:IWEB_PATH/web\model\model_class.php
+	Func:getObj         	Class:IModel         	Type:->   	Line:487  	File:IAPP_PATH/controllers\seller.php
+	Func:payment_conf   	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_seller_payment WHERE seller_id = 1 limit 1
+ -- Table 'sunupedu_shop.sunup_seller_payment' doesn't exist
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:134  	File:IWEB_PATH/web\model\model_class.php
+	Func:getObj         	Class:IModel         	Type:->   	Line:487  	File:IAPP_PATH/controllers\seller.php
+	Func:payment_conf   	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: INSERT INTO sunup_seller_payment ( `seller_id`,`parent_id`,`parent_key`,`parent_email` ) VALUES ( '1','','','pcwuhan@126.com' ) 
+ -- Unknown column 'parent_id' in 'field list'
+Line: 130
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:write          	Class:IMysqli        	Type:->   	Line:73   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:111  	File:IWEB_PATH/web\model\model_class.php
+	Func:add            	Class:IModel         	Type:->   	Line:515  	File:IAPP_PATH/controllers\seller.php
+	Func:payment_conf_save	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from sunup_order_goods as og left join sunup_goods  as go on go.id = og.goods_id left join sunup_order  as o on o.id = og.order_id where og.is_send = 1 and o.pay_type != 0 and o.pay_status = 1 and seller_id = 1   
+ -- Column 'seller_id' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:56   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:42   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:140  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:136  	File:IAPP_PATH/runtime\sysseller\seller\order_goods_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from sunup_order_goods as og left join sunup_goods  as go on go.id = og.goods_id left join sunup_order  as o on o.id = og.order_id where og.is_send = 1 and o.pay_type != 0 and o.pay_status = 1 and seller_id = 1   
+ -- Column 'seller_id' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:56   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:42   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:140  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:136  	File:IAPP_PATH/runtime\sysseller\seller\order_goods_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>

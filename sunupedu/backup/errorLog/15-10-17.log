@@ -1,0 +1,28 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-10-17 10:04:36
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-10-17 17:47:55
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-10-17 19:44:06
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-10-17 20:21:42
+<\ERROR_INFO>

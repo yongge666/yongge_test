@@ -1,0 +1,7 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: address
+errFile:IAPP_PATH/controllers\simple.php
+errLine:178
+errTime:15-06-29 17:10:02
+<\ERROR_INFO>

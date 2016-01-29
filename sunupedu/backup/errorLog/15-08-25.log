@@ -1,0 +1,119 @@
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 09:50:48
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 10:56:03
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 14:27:11
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-08-25 16:28:09
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-08-25 16:31:17
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-08-25 16:36:30
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-08-25 16:42:24
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 16:57:58
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-08-25 18:23:11
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 19:14:10
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 19:20:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 19:30:35
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 19:38:59
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 19:42:00
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 19:45:15
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-25 20:26:02
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-08-25 22:14:48
+<\ERROR_INFO>

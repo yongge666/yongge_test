@@ -1,0 +1,109 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-08-29 21:49:06
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-08-29 22:05:15
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-08-29 22:07:53
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select  o.*,p.name as payment_name from sunup_order_goods as og left join sunup_goods  as go on go.id=og.goods_id left join sunup_order  as o on o.id=og.order_id left join sunup_payment  as p on p.id = o.pay_type where go.seller_id = 7 and `pay_time` <= '2015-08-29 23:59:59'  and status='2'   order by o.id desc limit 1000
+ -- Column 'status' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:375  	File:IAPP_PATH/controllers\seller.php
+	Func:order_report   	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  o.*,p.name as payment_name from sunup_order_goods as og left join sunup_goods  as go on go.id=og.goods_id left join sunup_order  as o on o.id=og.order_id left join sunup_payment  as p on p.id = o.pay_type where go.seller_id = 7 and `pay_time` <= '2015-08-29 23:59:59'  and status='2'   order by o.id desc limit 1000
+ -- Column 'status' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:375  	File:IAPP_PATH/controllers\seller.php
+	Func:order_report   	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-08-29 22:21:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:file_get_contents(http://product.aircheng.com/index.php?_c=system&amp;_a=version) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! 
+errFile:IAPP_PATH/classes\proxy.php
+errLine:23
+errTime:15-08-29 22:39:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-08-29 22:45:38
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-08-29 22:48:44
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1975
+errTime:15-08-29 22:56:59
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-08-29 22:58:09
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中九年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-08-29 23:00:44
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-08-29 23:28:51
+<\ERROR_INFO>

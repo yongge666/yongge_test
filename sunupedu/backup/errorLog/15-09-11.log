@@ -1,0 +1,504 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中九年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 00:25:46
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-09-11 09:07:08
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 09:23:45
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 09:25:13
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-11 09:31:25
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select  o.order_no,o.create_time,u.username,c.* from sunup_refundment_doc as c  left join sunup_order  as o on c.order_id=o.id left join sunup_user  as u on u.id = c.user_id where c.id=27 and seller_id = 8    limit 1000
+ -- Column 'seller_id' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:945  	File:IAPP_PATH/controllers\seller.php
+	Func:refundment_show	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from sunup_refundment_doc as rd left join sunup_order_goods  as og on og.order_id = rd.order_id where rd.if_del = 0 and rd.goods_id = og.goods_id and rd.product_id = og.product_id and rd.seller_id = 8  and `pay_time` <= '2015-09-11 23:59:59'  and rd.pay_status='0'   
+ -- Unknown column 'pay_time' in 'where clause'
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:56   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:42   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:140  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:124  	File:IAPP_PATH/runtime\sysseller\seller\refundment_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:47:47
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:48:35
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:48:52
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:49:52
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:50:04
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:50:08
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:50:15
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:50:30
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:50:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:50:40
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:50:46
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:51:28
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:51:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:225
+errTime:15-09-11 12:51:40
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:229
+errTime:15-09-11 12:56:55
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:229
+errTime:15-09-11 12:57:02
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:229
+errTime:15-09-11 12:57:05
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:229
+errTime:15-09-11 12:57:34
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: items
+errFile:IAPP_PATH/runtime\default\site\index.php
+errLine:229
+errTime:15-09-11 12:57:52
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 15:50:48
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 15:59:21
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 16:03:57
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-11 17:08:59
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 17:24:19
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 17:38:05
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-11 18:03:57
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-11 18:51:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-11 19:18:56
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 19:25:36
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-11 19:25:46
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 19:25:51
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 19:28:46
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 19:29:46
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 19:30:32
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 19:32:05
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-11 19:56:05
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-11 20:00:38
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 20:52:23
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-11 20:52:35
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-11 20:54:15
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 20:58:18
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-11 21:02:36
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1977
+errTime:15-09-11 21:11:54
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select  o.order_no,o.create_time,u.username,c.* from sunup_refundment_doc as c  left join sunup_order  as o on c.order_id=o.id left join sunup_user  as u on u.id = c.user_id where c.id=28 and seller_id = 6    limit 1000
+ -- Column 'seller_id' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:945  	File:IAPP_PATH/controllers\seller.php
+	Func:refundment_show	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  o.order_no,o.create_time,u.username,c.* from sunup_refundment_doc as c  left join sunup_order  as o on c.order_id=o.id left join sunup_user  as u on u.id = c.user_id where c.id=22 and seller_id = 6    limit 1000
+ -- Column 'seller_id' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:945  	File:IAPP_PATH/controllers\seller.php
+	Func:refundment_show	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  o.order_no,o.create_time,u.username,c.* from sunup_refundment_doc as c  left join sunup_order  as o on c.order_id=o.id left join sunup_user  as u on u.id = c.user_id where c.id=22 and seller_id = 6    limit 1000
+ -- Column 'seller_id' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:945  	File:IAPP_PATH/controllers\seller.php
+	Func:refundment_show	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  o.order_no,o.create_time,u.username,c.* from sunup_refundment_doc as c  left join sunup_order  as o on c.order_id=o.id left join sunup_user  as u on u.id = c.user_id where c.id=22 and seller_id = 6    limit 1000
+ -- Column 'seller_id' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:945  	File:IAPP_PATH/controllers\seller.php
+	Func:refundment_show	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-11 21:39:13
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-11 21:39:13
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select  o.order_no,o.create_time,u.username,c.* from sunup_refundment_doc as c  left join sunup_order  as o on c.order_id=o.id left join sunup_user  as u on u.id = c.user_id where c.id=20 and seller_id = 6    limit 1000
+ -- Column 'seller_id' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:945  	File:IAPP_PATH/controllers\seller.php
+	Func:refundment_show	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  o.order_no,o.create_time,u.username,c.* from sunup_refundment_doc as c  left join sunup_order  as o on c.order_id=o.id left join sunup_user  as u on u.id = c.user_id where c.id=22 and seller_id = 6    limit 1000
+ -- Column 'seller_id' in where clause is ambiguous
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:945  	File:IAPP_PATH/controllers\seller.php
+	Func:refundment_show	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 22:25:21
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-11 22:25:55
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-11 22:50:41
+<\ERROR_INFO>

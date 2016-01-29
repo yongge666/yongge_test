@@ -1,0 +1,14 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:257
+errTime:15-06-26 22:41:20
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: address
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:289
+errTime:15-06-26 22:44:22
+<\ERROR_INFO>

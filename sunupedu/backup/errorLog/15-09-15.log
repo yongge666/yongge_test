@@ -1,0 +1,352 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 08:16:03
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中八年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 08:33:31
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 08:33:42
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: file
+errFile:IWEB_PATH/core\util\exception_class.php
+errLine:97
+errTime:15-09-15 09:30:39
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 09:57:16
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: file
+errFile:IWEB_PATH/core\util\exception_class.php
+errLine:97
+errTime:15-09-15 09:58:07
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 12:30:39
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 14:05:27
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 14:05:45
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 14:06:58
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 14:13:02
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 14:21:10
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 14:29:00
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 14:33:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 14:34:02
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中八年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 15:09:07
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中九年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 15:56:17
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-15 16:34:24
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1975
+errTime:15-09-15 16:36:55
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中八年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 17:29:45
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 17:31:50
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-15 17:44:24
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select  * from sunup_address  where user_id =     limit 1000
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1000' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:246  	File:IAPP_PATH/controllers\ucenter.php
+	Func:address        	Class:Ucenter        	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中九年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 18:11:07
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-15 18:46:55
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 18:48:38
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 20:50:42
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 20:51:21
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 20:55:20
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-15 21:06:18
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-15 21:33:03
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 21:34:50
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 21:39:08
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 21:40:48
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 21:41:26
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 21:42:11
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 22:01:58
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 22:04:29
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 22:06:36
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中七年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 22:08:42
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1975
+errTime:15-09-15 22:10:27
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-15 22:11:02
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中九年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 22:11:43
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中九年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-15 22:14:52
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-15 22:15:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-15 22:20:15
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 22:42:34
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 23:00:11
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-15 23:06:50
+<\ERROR_INFO>

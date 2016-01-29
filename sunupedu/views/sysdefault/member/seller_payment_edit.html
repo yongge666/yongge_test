@@ -1,0 +1,56 @@
+{js:artTemplate}
+<script type='text/javascript' src='{theme:javascript/artTemplate/area_select.js}'></script>
+
+<div class="headbar">
+	<div class="position"><span>会员</span><span>></span><span>商户管理</span><span>></span><span>编辑商户</span></div>
+</div>
+
+<div class="content_box">
+	<div class="content form_content">
+		<form action="{url:/member/seller_payment_save}" method="post" name="sellerForm" enctype='multipart/form-data'>
+			<input name="id" value="" type="hidden" />
+
+			<table class="form_table">
+				<colgroup>
+					<col width="150px" />
+					<col />
+				</colgroup>
+
+				<tbody>
+					<input class="normal" name="seller_id" type="hidden" value="{echo:$this->seller_id}" pattern="required" />
+					<!-- <tr>
+						<th>合作者身份（PID）:</th>
+						<td><input class="normal" name="parent_id" type="text" value="" pattern="required" /></td>
+					</tr>
+					
+					<tr>
+						<th>安全校验码（Key）:</th>
+						<td><input class="normal" name="parent_key" type="text" value="" pattern="required" /></td>
+					</tr> -->
+					
+					<tr>
+						<th>收款账户 (Email或手机号) :</th>
+						<td><input class="normal" name="parent_email" type="text" value="" pattern="required" /></td>
+					</tr>
+					
+					 
+					<tr>
+						<td></td><td><button class="submit" type="submit"><span>确 定</span></button></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+</div>
+
+<script language="javascript">
+//DOM加载完毕
+$(function(){
+	//修改模式
+	{if:isset($this->paymentRow) && $this->paymentRow}
+		var formObj = new Form('sellerForm');
+		formObj.init({echo:JSON::encode($this->paymentRow)});
+	{/if}
+});
+ 
+</script>

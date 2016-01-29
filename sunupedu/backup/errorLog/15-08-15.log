@@ -1,0 +1,7 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-08-15 11:42:01
+<\ERROR_INFO>

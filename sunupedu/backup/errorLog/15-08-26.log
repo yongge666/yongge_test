@@ -1,0 +1,80 @@
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-26 08:37:04
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-26 08:39:40
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-26 08:46:51
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-26 15:04:00
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-26 15:07:17
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from sunup_goods as go  left join sunup_category_extend  as ce on ce.goods_id = go.id  where go.seller_id = 11  and `pay_time` <= '2015-08-26 23:59:59'  and go.name='八年级阳光英语周刊'   
+ -- Unknown column 'pay_time' in 'where clause'
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:56   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:42   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:140  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:136  	File:IAPP_PATH/runtime\sysseller\seller\goods_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:95   	File:IAPP_PATH/controllers\seller.php
+	Func:goods_list     	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-26 15:29:44
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-08-26 16:08:13
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-08-26 20:40:27
+<\ERROR_INFO>

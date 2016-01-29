@@ -1,0 +1,616 @@
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:266  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: resultData
+errFile:D:\wamp\www\new\runtime\default\site\pro_list.php
+errLine:178
+errTime:15-12-26 14:21:44
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: resultData
+errFile:D:\wamp\www\new\runtime\default\site\pro_list.php
+errLine:178
+errTime:15-12-26 14:28:41
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: resultData
+errFile:D:\wamp\www\new\runtime\default\site\pro_list.php
+errLine:178
+errTime:15-12-26 14:58:27
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: resultData
+errFile:D:\wamp\www\new\runtime\default\site\pro_list.php
+errLine:178
+errTime:15-12-26 15:03:21
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: resultData
+errFile:D:\wamp\www\new\runtime\default\site\pro_list.php
+errLine:178
+errTime:15-12-26 15:05:13
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: resultData
+errFile:D:\wamp\www\new\runtime\default\site\pro_list.php
+errLine:179
+errTime:15-12-26 15:22:26
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: resultData
+errFile:D:\wamp\www\new\runtime\default\site\pro_list.php
+errLine:179
+errTime:15-12-26 15:32:45
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Site::$resultData has no effect
+errFile:D:\wamp\www\new\controllers\site.php
+errLine:244
+errTime:15-12-26 15:34:26
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Site::$resultData has no effect
+errFile:D:\wamp\www\new\controllers\site.php
+errLine:244
+errTime:15-12-26 15:41:41
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Site::$resultData has no effect
+errFile:D:\wamp\www\new\controllers\site.php
+errLine:244
+errTime:15-12-26 15:42:25
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Site::$resultData has no effect
+errFile:D:\wamp\www\new\controllers\site.php
+errLine:244
+errTime:15-12-26 15:45:08
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Site::$resultData has no effect
+errFile:D:\wamp\www\new\controllers\site.php
+errLine:244
+errTime:15-12-26 16:34:05
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Site::$resultData has no effect
+errFile:D:\wamp\www\new\controllers\site.php
+errLine:244
+errTime:15-12-26 17:06:02
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Site::$resultData has no effect
+errFile:D:\wamp\www\new\controllers\site.php
+errLine:244
+errTime:15-12-26 17:07:01
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Site::$resultData has no effect
+errFile:D:\wamp\www\new\controllers\site.php
+errLine:244
+errTime:15-12-26 17:07:33
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:209  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:209  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:209  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:209  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:209  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:207  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:207  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:211  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:209  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:D:\wamp\www\new\classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:D:\wamp\www\new\classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:D:\wamp\www\new\runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:267  	File:D:\wamp\www\new\controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:D:\wamp\www\new\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+errFile:IWEB_PATH/db\driver\mysqli_class.php
+errLine:35
+errTime:15-12-26 21:12:54
+<\ERROR_INFO>

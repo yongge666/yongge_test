@@ -1,0 +1,21 @@
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-07-22 16:50:35
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-07-22 16:55:51
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-07-22 16:56:24
+<\ERROR_INFO>

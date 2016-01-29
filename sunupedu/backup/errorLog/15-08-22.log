@@ -1,0 +1,42 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-08-22 17:56:58
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-08-22 18:09:28
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-08-22 18:28:08
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-08-22 18:50:08
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-08-22 18:56:17
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-08-22 18:59:27
+<\ERROR_INFO>

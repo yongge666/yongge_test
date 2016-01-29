@@ -1,0 +1,14 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: seller_id
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1043
+errTime:15-10-22 20:46:19
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: seller_id
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1043
+errTime:15-10-22 20:48:48
+<\ERROR_INFO>

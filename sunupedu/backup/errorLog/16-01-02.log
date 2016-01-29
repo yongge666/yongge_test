@@ -1,0 +1,7 @@
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:D:\wamp\www\new\controllers\simple.php
+errLine:935
+errTime:16-01-02 11:11:58
+<\ERROR_INFO>

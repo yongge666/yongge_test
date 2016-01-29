@@ -1,0 +1,189 @@
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-03 07:58:46
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-09-03 09:14:10
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-09-03 09:14:13
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: seller_id
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1043
+errTime:15-09-03 09:36:57
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: seller_id
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1043
+errTime:15-09-03 09:40:04
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: seller_id
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1043
+errTime:15-09-03 09:41:45
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-09-03 10:15:12
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-03 11:23:46
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-03 11:24:24
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-03 11:43:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中九年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-03 14:39:39
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-03 14:46:32
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-09-03 14:53:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中九年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-09-03 15:10:26
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-03 15:12:26
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1977
+errTime:15-09-03 15:43:07
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: seller_id
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1043
+errTime:15-09-03 15:43:46
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-03 18:01:02
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1109
+errTime:15-09-03 19:52:45
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-09-03 22:23:21
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: area_id
+errFile:IAPP_PATH/runtime\default\site\pro_list.php
+errLine:288
+errTime:15-09-03 22:29:07
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: area_id
+errFile:IAPP_PATH/runtime\default\site\pro_list.php
+errLine:288
+errTime:15-09-03 22:29:20
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: area_id
+errFile:IAPP_PATH/runtime\default\site\pro_list.php
+errLine:288
+errTime:15-09-03 22:35:09
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: area_id
+errFile:IAPP_PATH/runtime\default\site\pro_list.php
+errLine:288
+errTime:15-09-03 22:35:35
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: area_id
+errFile:IAPP_PATH/runtime\default\site\pro_list.php
+errLine:288
+errTime:15-09-03 22:35:43
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: area_id
+errFile:IAPP_PATH/runtime\default\site\pro_list.php
+errLine:288
+errTime:15-09-03 22:39:25
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: area_id
+errFile:IAPP_PATH/runtime\default\site\pro_list.php
+errLine:288
+errTime:15-09-03 22:39:32
+<\ERROR_INFO>

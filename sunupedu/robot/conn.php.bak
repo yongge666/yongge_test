@@ -1,0 +1,5 @@
+<?php
+mysql_connect("localhost:3306","root","spsqlmima");//连接MySQL
+mysql_select_db("yuyue");//选择数据库
+mysql_query("set names 'UTF-8'"); //**设置字符集***
+?>

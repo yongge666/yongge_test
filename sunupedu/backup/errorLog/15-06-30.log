@@ -1,0 +1,394 @@
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-06-30 09:15:30
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-06-30 09:15:50
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-06-30 09:15:54
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-06-30 09:20:29
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-06-30 09:20:47
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: UPDATE sunup_address SET `default` = '0' WHERE user_id = 
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Line: 130
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:write          	Class:IMysqli        	Type:->   	Line:73   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:91   	File:IWEB_PATH/web\model\model_class.php
+	Func:update         	Class:IModel         	Type:->   	Line:184  	File:IAPP_PATH/controllers\simple.php
+	Func:reg_act        	Class:Simple         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-06-30 09:51:49
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-06-30 09:52:08
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-06-30 10:28:32
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:257
+errTime:15-06-30 16:01:39
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:257
+errTime:15-06-30 16:01:49
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:257
+errTime:15-06-30 16:02:04
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 659004483
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1972
+errTime:15-06-30 17:02:50
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 659004485
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1972
+errTime:15-06-30 17:03:32
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 420103007
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1972
+errTime:15-06-30 17:09:37
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 420105007
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1972
+errTime:15-06-30 17:14:52
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 420105002
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1972
+errTime:15-06-30 17:20:02
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1972
+errTime:15-06-30 17:27:15
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1972
+errTime:15-06-30 17:27:57
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 659004483
+errFile:IAPP_PATH/controllers\simple.php
+errLine:786
+errTime:15-06-30 17:48:42
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_areas WHERE area_id in (420000,420100,659004482,659004483,小学四年级,15班) limit 50000
+ -- Unknown column '小学四年级' in 'where clause'
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:28   	File:IAPP_PATH/classes\area.php
+	Func:name           	Class:area           	Type:::   	Line:780  	File:IAPP_PATH/controllers\simple.php
+	Func:cart2          	Class:Simple         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_areas WHERE area_id in (420000,420100,659004482,659004483,小学四年级,15班) limit 50000
+ -- Unknown column '小学四年级' in 'where clause'
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:28   	File:IAPP_PATH/classes\area.php
+	Func:name           	Class:area           	Type:::   	Line:780  	File:IAPP_PATH/controllers\simple.php
+	Func:cart2          	Class:Simple         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_areas WHERE area_id in (420000,420100,659004482,659004483,小学四年级,15班) limit 50000
+ -- Unknown column '小学四年级' in 'where clause'
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:28   	File:IAPP_PATH/classes\area.php
+	Func:name           	Class:area           	Type:::   	Line:780  	File:IAPP_PATH/controllers\simple.php
+	Func:cart2          	Class:Simple         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_areas WHERE area_id in (420000,420100,659004482,659004483,小学四年级,15班) limit 50000
+ -- Unknown column '小学四年级' in 'where clause'
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:28   	File:IAPP_PATH/classes\area.php
+	Func:name           	Class:area           	Type:::   	Line:780  	File:IAPP_PATH/controllers\simple.php
+	Func:cart2          	Class:Simple         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_areas WHERE area_id in (420000,420100,659004482,659004483,小学四年级,15班) limit 50000
+ -- Unknown column '小学四年级' in 'where clause'
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:28   	File:IAPP_PATH/classes\area.php
+	Func:name           	Class:area           	Type:::   	Line:780  	File:IAPP_PATH/controllers\simple.php
+	Func:cart2          	Class:Simple         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_areas WHERE area_id in (420000,420100,659004482,659004483,小学四年级,15班) limit 50000
+ -- Unknown column '小学四年级' in 'where clause'
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:28   	File:IAPP_PATH/classes\area.php
+	Func:name           	Class:area           	Type:::   	Line:780  	File:IAPP_PATH/controllers\simple.php
+	Func:cart2          	Class:Simple         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_areas WHERE area_id in (420000,420100,659004482,659004483,小学四年级,15班) limit 50000
+ -- Unknown column '小学四年级' in 'where clause'
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:28   	File:IAPP_PATH/classes\area.php
+	Func:name           	Class:area           	Type:::   	Line:780  	File:IAPP_PATH/controllers\simple.php
+	Func:cart2          	Class:Simple         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:787
+errTime:15-06-30 21:32:12
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 420103012
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1977
+errTime:15-06-30 22:02:26
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 420103002
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1977
+errTime:15-06-30 22:20:01
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 420103003
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1977
+errTime:15-06-30 22:24:32
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 420103002
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1977
+errTime:15-06-30 22:29:18
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中九年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-06-30 22:35:05
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 小学三年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-06-30 22:37:22
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中九年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-06-30 22:38:21
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 小学四年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-06-30 22:41:02
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset: 0
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1974
+errTime:15-06-30 22:41:12
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中八年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-06-30 22:58:33
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 初中八年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-06-30 22:59:09
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:254
+errTime:15-06-30 23:08:23
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:254
+errTime:15-06-30 23:08:29
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:254
+errTime:15-06-30 23:08:39
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:254
+errTime:15-06-30 23:08:41
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:254
+errTime:15-06-30 23:14:21
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 0
+errFile:IAPP_PATH/controllers\ucenter.php
+errLine:254
+errTime:15-06-30 23:14:24
+<\ERROR_INFO>

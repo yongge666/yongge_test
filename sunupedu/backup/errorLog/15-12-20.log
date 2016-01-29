@@ -1,0 +1,258 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:31
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:32
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:32
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:32
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:32
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:32
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:33
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:34
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:34
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:34
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:34
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:34
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:35
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:35
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:35
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:35
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:35
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: sqlp
+errFile:IWEB_PATH/web\model\model_class.php
+errLine:187
+errTime:15-12-20 10:28:43
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM sunup_goods WHERE seller_id=Array limit 50000
+ -- Unknown column 'Array' in 'where clause'
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:188  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:191  	File:IAPP_PATH/controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: id
+errFile:IAPP_PATH/controllers\site.php
+errLine:193
+errTime:15-12-20 11:49:29
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT goods_id FROM sunup_category_extend WHERE category_id= limit 50000
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 50000' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:188  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:202  	File:IAPP_PATH/controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: strCategoryIds
+errFile:IAPP_PATH/classes\goods_class.php
+errLine:613
+errTime:15-12-20 16:33:13
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: goods_id
+errFile:IAPP_PATH/controllers\site.php
+errLine:212
+errTime:15-12-20 18:03:45
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Invalid argument supplied for foreach()
+errFile:IAPP_PATH/controllers\site.php
+errLine:212
+errTime:15-12-20 18:05:48
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:IAPP_PATH/classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:IAPP_PATH/classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:IAPP_PATH/runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:249  	File:IAPP_PATH/controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:IAPP_PATH/classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:IAPP_PATH/classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:IAPP_PATH/runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:249  	File:IAPP_PATH/controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  DISTINCT go.id,go.img,go.sell_price,go.name,go.market_price,go.description from sunup_category_extend as ca left join sunup_goods  as go on ca.goods_id = go.id left join sunup_commend_goods  as co on co.goods_id = go.id where ca.category_id in () and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limit 6
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and co.commend_id = 4 and go.is_del = 0   order by go.sort asc,go.id desc limi' at line 1
+Line: 99
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysqli        	Type:->   	Line:67   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:166  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:151  	File:IAPP_PATH/classes\api.php
+	Func:query          	Class:Api            	Type:::   	Line:56   	File:IAPP_PATH/classes\api.php
+	Func:run            	Class:Api            	Type:::   	Line:208  	File:IAPP_PATH/runtime\default\site\pro_list.php
+	Func:require        	Class:               	Type:     	Line:116  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:82   	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:201  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:36   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:369  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:249  	File:IAPP_PATH/controllers\site.php
+	Func:pro_list       	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:14   	File:IAPP_PATH/index.php
+</ERROR_INFO>

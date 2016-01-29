@@ -1,0 +1,105 @@
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-07-07 08:50:40
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:IAPP_PATH/controllers\goods.php
+errLine:1043
+errTime:15-07-07 08:54:02
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 小学三年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-07-07 10:57:20
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-07-07 20:31:53
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-07-07 20:31:59
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-07-07 20:32:04
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-07-07 20:32:10
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-07-07 20:32:15
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-07-07 20:32:22
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-07-07 20:34:06
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-07-07 20:34:11
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-07-07 20:34:16
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-07-07 20:34:21
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-07-07 20:34:30
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: name
+errFile:IAPP_PATH/runtime\default\site\pic_show.php
+errLine:38
+errTime:15-07-07 20:34:35
+<\ERROR_INFO>

@@ -1,0 +1,31 @@
+<html>
+ <head>
+<meta charset="utf-8" />
+ <title>Document</title>
+ </head>
+ <body>
+<?php
+
+require_once("conn.php");//引用数据库链接文件
+
+
+
+
+$sql = "select * from student";
+$rs = mysql_query($sql);//借SQL语句插入数据
+
+if(!$rs){die("Valid result!");}  
+echo "<table border='1'>";  
+echo "<tr><td>--区--</td><td>--学校--</td><td>--年级--</td><td>--电话--</td><td>--姓名--</td><td>--时间--</td></tr>";  
+while($row = mysql_fetch_row($rs)) echo "<tr><td>$row[1]</td><td>$row[2]</td><td>$row[3]</td><td>$row[4]</td><td>$row[5]</td><td>$row[6]</td></tr>";   //显示数据  
+echo "</table>";  
+
+
+
+mysql_close();//关闭MySQL连接
+
+?>
+
+<a href="./index.php">首页</a>
+</body>
+</html>

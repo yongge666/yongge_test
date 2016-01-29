@@ -1,0 +1,102 @@
+<ERROR_INFO>
+Mess: INSERT INTO sunup_delivery_doc ( `order_id`,`user_id`,`name`,`postcode`,`telphone`,`province`,`city`,`area`,`address`,`mobile`,`freight`,`delivery_code`,`delivery_type`,`note`,`time`,`freight_id`,`seller_id` ) VALUES ( '17','2','测试6','0','','420000','420100','420107','','18602732103','0.5','','','','2015-07-20 15:59:10','0','1' ) 
+ -- Cannot add or update a child row: a foreign key constraint fails (`sunupedu_shop`.`sunup_delivery_doc`, CONSTRAINT `sunup_delivery_doc_ibfk_1` FOREIGN KEY (`freight_id`) REFERENCES `sunup_freight_company` (`id`))
+Line: 130
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:write          	Class:IMysqli        	Type:->   	Line:73   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:111  	File:IWEB_PATH/web\model\model_class.php
+	Func:add            	Class:IModel         	Type:->   	Line:771  	File:IAPP_PATH/classes\order_class.php
+	Func:sendDeliveryGoods	Class:Order_Class    	Type:::   	Line:305  	File:IAPP_PATH/controllers\seller.php
+	Func:order_delivery_doc	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: INSERT INTO sunup_delivery_doc ( `order_id`,`user_id`,`name`,`postcode`,`telphone`,`province`,`city`,`area`,`address`,`mobile`,`freight`,`delivery_code`,`delivery_type`,`note`,`time`,`freight_id`,`seller_id` ) VALUES ( '17','2','测试6','0','','420000','420100','420107','','18602732103','0.5','','','','2015-07-20 16:01:43','0','1' ) 
+ -- Cannot add or update a child row: a foreign key constraint fails (`sunupedu_shop`.`sunup_delivery_doc`, CONSTRAINT `sunup_delivery_doc_ibfk_1` FOREIGN KEY (`freight_id`) REFERENCES `sunup_freight_company` (`id`))
+Line: 130
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:write          	Class:IMysqli        	Type:->   	Line:73   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:111  	File:IWEB_PATH/web\model\model_class.php
+	Func:add            	Class:IModel         	Type:->   	Line:771  	File:IAPP_PATH/classes\order_class.php
+	Func:sendDeliveryGoods	Class:Order_Class    	Type:::   	Line:305  	File:IAPP_PATH/controllers\seller.php
+	Func:order_delivery_doc	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: INSERT INTO sunup_delivery_doc ( `order_id`,`user_id`,`name`,`postcode`,`telphone`,`province`,`city`,`area`,`address`,`mobile`,`freight`,`delivery_code`,`delivery_type`,`note`,`time`,`freight_id`,`seller_id` ) VALUES ( '17','2','测试6','0','','420000','420100','420107','','18602732103','0.5','000000','','','2015-07-20 16:04:27','0','1' ) 
+ -- Cannot add or update a child row: a foreign key constraint fails (`sunupedu_shop`.`sunup_delivery_doc`, CONSTRAINT `sunup_delivery_doc_ibfk_1` FOREIGN KEY (`freight_id`) REFERENCES `sunup_freight_company` (`id`))
+Line: 130
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:write          	Class:IMysqli        	Type:->   	Line:73   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:111  	File:IWEB_PATH/web\model\model_class.php
+	Func:add            	Class:IModel         	Type:->   	Line:771  	File:IAPP_PATH/classes\order_class.php
+	Func:sendDeliveryGoods	Class:Order_Class    	Type:::   	Line:305  	File:IAPP_PATH/controllers\seller.php
+	Func:order_delivery_doc	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: INSERT INTO sunup_delivery_doc ( `order_id`,`user_id`,`name`,`postcode`,`telphone`,`province`,`city`,`area`,`address`,`mobile`,`freight`,`delivery_code`,`delivery_type`,`note`,`time`,`freight_id`,`seller_id` ) VALUES ( '17','2','测试6','0','','420000','420100','420107','','18602732103','0.5','000000','','','2015-07-20 16:08:22','0','1' ) 
+ -- Cannot add or update a child row: a foreign key constraint fails (`sunupedu_shop`.`sunup_delivery_doc`, CONSTRAINT `sunup_delivery_doc_ibfk_1` FOREIGN KEY (`freight_id`) REFERENCES `sunup_freight_company` (`id`))
+Line: 130
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:write          	Class:IMysqli        	Type:->   	Line:73   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:111  	File:IWEB_PATH/web\model\model_class.php
+	Func:add            	Class:IModel         	Type:->   	Line:771  	File:IAPP_PATH/classes\order_class.php
+	Func:sendDeliveryGoods	Class:Order_Class    	Type:::   	Line:305  	File:IAPP_PATH/controllers\seller.php
+	Func:order_delivery_doc	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: INSERT INTO sunup_delivery_doc ( `order_id`,`user_id`,`name`,`postcode`,`telphone`,`province`,`city`,`area`,`address`,`mobile`,`freight`,`delivery_code`,`delivery_type`,`note`,`time`,`freight_id`,`seller_id` ) VALUES ( '17','2','测试6','0','','420000','420100','420107','','18602732103','0.5','000000','','','2015-07-20 16:35:41','0','1' ) 
+ -- Cannot add or update a child row: a foreign key constraint fails (`sunupedu_shop`.`sunup_delivery_doc`, CONSTRAINT `sunup_delivery_doc_ibfk_1` FOREIGN KEY (`freight_id`) REFERENCES `sunup_freight_company` (`id`))
+Line: 130
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:write          	Class:IMysqli        	Type:->   	Line:73   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:111  	File:IWEB_PATH/web\model\model_class.php
+	Func:add            	Class:IModel         	Type:->   	Line:771  	File:IAPP_PATH/classes\order_class.php
+	Func:sendDeliveryGoods	Class:Order_Class    	Type:::   	Line:305  	File:IAPP_PATH/controllers\seller.php
+	Func:order_delivery_doc	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: INSERT INTO sunup_delivery_doc ( `order_id`,`user_id`,`name`,`postcode`,`telphone`,`province`,`city`,`area`,`address`,`mobile`,`freight`,`delivery_code`,`delivery_type`,`note`,`time`,`freight_id`,`seller_id` ) VALUES ( '17','2','测试6','0','','420000','420100','420107','','18602732103','0.5','000000','','','2015-07-20 16:45:09','0','1' ) 
+ -- Cannot add or update a child row: a foreign key constraint fails (`sunupedu_shop`.`sunup_delivery_doc`, CONSTRAINT `sunup_delivery_doc_ibfk_1` FOREIGN KEY (`freight_id`) REFERENCES `sunup_freight_company` (`id`))
+Line: 130
+File: IWEB_PATH/db\driver\mysqli_class.php
+##Debug_backtrace:##
+	Func:write          	Class:IMysqli        	Type:->   	Line:73   	File:IWEB_PATH/db\driver\mysqli_class.php
+	Func:doSql          	Class:IMysqli        	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:111  	File:IWEB_PATH/web\model\model_class.php
+	Func:add            	Class:IModel         	Type:->   	Line:771  	File:IAPP_PATH/classes\order_class.php
+	Func:sendDeliveryGoods	Class:Order_Class    	Type:::   	Line:305  	File:IAPP_PATH/controllers\seller.php
+	Func:order_delivery_doc	Class:Seller         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:137  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:108  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:IAPP_PATH/index.php
+</ERROR_INFO>

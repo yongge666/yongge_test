@@ -1,0 +1,14 @@
+<ERROR_INFO>
+errID:2
+errStr:mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+errFile:IWEB_PATH/db\driver\mysqli_class.php
+errLine:35
+errTime:15-12-11 13:46:59
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+errFile:IWEB_PATH/db\driver\mysqli_class.php
+errLine:35
+errTime:15-12-11 13:47:03
+<\ERROR_INFO>

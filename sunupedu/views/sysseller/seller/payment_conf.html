@@ -1,0 +1,48 @@
+{js:artTemplate}
+<script type='text/javascript' src='{theme:javascript/artTemplate/area_select.js}'></script>
+
+<article class="module width_full">
+	<header>
+		<h3>编辑商户收款信息 ( 只支持支付宝,金额将会直接支付到该商家账号 )</h3>
+	</header>
+
+	<form action="{url:/seller/payment_conf_save}" method="post" name="paymentForm" enctype='multipart/form-data'>
+		<div class="module_content">
+	 
+			<!-- <fieldset>
+				<label>合作者身份（PID,以2088开头的16位纯数字）:</label>
+				<input name="parent_id" type="text" value="" pattern="required"  />
+			</fieldset>
+			
+			<fieldset>
+				<label>安全校验码（Key,以数字和字母组成的32位字符）:</label>
+				<input name="parent_key" type="text" value="" pattern="required"  />
+			</fieldset> -->
+			
+			<fieldset>
+				<label>收款账户 (Email或者手机号,收款支付宝账号) :</label>
+				<input name="parent_email" type="text" value="" pattern="required"  />
+			</fieldset>
+ 
+
+		<footer>
+			<div class="submit_link">
+				<input type="submit" class="alt_btn" value="确 定" />
+				<input type="reset" value="重 置" />
+			</div>
+		</footer>
+	</form>
+</article>
+
+<script language="javascript">
+//DOM加载完毕
+$(function(){
+	//修改模式
+	{if:isset($this->paymentRow)}
+		var formObj = new Form('paymentForm');
+		formObj.init({echo:JSON::encode($this->paymentRow)});
+	{/if}
+});
+
+ 
+</script>

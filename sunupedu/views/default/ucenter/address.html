@@ -1,0 +1,229 @@
+﻿{js:artTemplate}
+<script type='text/javascript' src='{theme:javascript/artTemplate/area_select.js}'></script>
+<div class="main f_r">
+    <div class='tabs'>
+		<div class="uc_title m_10 tabs_menu">
+			<label class="current node"><span>地址管理</span></label>
+			<label class="node" onclick='form_empty()' style="display: none"><span>添加地址</span></label>
+		</div>
+	    <div class='tabs_content'>
+	        <div id="address_list" class="form_content m_10 node">
+	            <div class="uc_title2 m_10"><strong>已保存的有效地址</strong></div>
+	            <table class="list_table" width="100%" cellpadding="0" cellspacing="0">
+	                <col width="120px" />
+	                <col width="120px" />
+	                <col width="120px" />
+	                <col width="120px" />
+	                <col width="120px" />
+	                <col />
+	                <thead>
+	                	<tr>
+	                		<th>收货人</th>
+	                		<th>所在地区</th>
+	                		<th>街道地址</th>
+	                		<th>电话/手机</th>
+	                		<th>邮编</th>
+	                		<th>操作</th>
+	                	</tr>
+	                </thead>
+	                <tbody>
+	                {foreach:items=$this->address}
+	                    <tr {if:$key%2==1}class='even'{/if}>
+	                        <td>{$item['accept_name']}</td>
+	                        <td>{$this->areas[$item['province']]}{$this->areas[$item['city']]}{$this->areas[$item['area']]}{$this->areas[$item['school']]}</td>
+	                        <td>{$item['grade']}</td>
+	                        <td>{$item['class']}</td>
+	                        <td>{$item['zip']}</td>
+	                        <td>
+	                        	<a class="blue" href='javascript:void(0)' onclick='form_back({echo:JSON::encode($item)})'>修改</a>|
+	                        	<a class="blue" href="javascript:void(0)" onclick="delModel({link:'{url:/ucenter/address_del/id/$item[id]}'});">删除</a>|
+	                        	{if:$item['default']==1}
+	                        	<a class="red2" href="{url:/ucenter/address_default/id/$item[id]/default/0}">取消默认</a>
+	                        	{else:}
+	                        	<a class="blue" href="{url:/ucenter/address_default/id/$item[id]/default/1}">设为默认</a>
+	                        	{/if}
+	                        </td>
+	                    </tr>
+	                {/foreach}
+	                </tbody>
+	            </table>
+	        </div>
+	    </div>
+    </div>
+
+	<!--表单修改-->
+	<div class="orange_box" id='address_form' style="display: none">
+		<form action='{url:/ucenter/address_edit}' method='post' name='form'>
+			<input name='id' type='hidden' value='' />
+			<table class="form_table" width="100%" cellpadding="0" cellspacing="0">
+				<col width="50px" />
+				<col />
+				<caption>收货地址</caption>
+
+                                 <tr>
+                                  <td>学生姓名</td>
+ <td>XX省</td>
+ <td>XX市</td>
+ <td>XX区</td>
+ <td>学校</td>
+ <td>XX年级</td>
+ <td>班级</td>
+ <td>手机号</td>
+                                 </tr>
+
+
+
+				<tr>
+					
+					<td><input name='accept_name' class="normal" pattern='required' alt='收货人不能为空' type="text" /></td>
+
+            <td> <select  style="width:70px" name="province" child="city,area,school" onchange="areaChangeCallback(this);"></select></td>
+						<td> <select  style="width:70px" name="city" child="area,school" parent="province" onchange="areaChangeCallback(this);"></select></td>
+						<td> <select  style="width:70px" name="area" child="school" parent="city"   onchange="areaChangeCallback(this);"></select></td>
+						<td> <select  style="width:100px" name="school" parent="area" pattern="required"></select></td>
+
+					                
+                           
+
+<td>
+<select name='grade'>
+<option value="" selected="selected">选择年级</option>
+<option value='小学一年级'>小学一年级</option>
+<option value='小学二年级'>小学二年级</option>
+<option value='小学三年级'>小学三年级</option>
+<option value='小学四年级'>小学四年级</option>
+<option value='小学五年级'>小学五年级</option>
+<option value='小学六年级'>小学六年级</option>
+<option value='初中七年级'>初中七年级</option>
+<option value='初中八年级'>初中八年级</option>
+<option value='初中九年级'>初中九年级</option>
+<option value='高中一年级'>高中一年级</option>
+<option value='高中二年级'>高中二年级</option>
+<option value='高中三年级'>高中三年级</option>
+</select>
+</td>
+
+
+<td>
+<select name='class'>
+<option value="" selected="selected">班级</option>
+<option value='1班'>1班</option>
+<option value='2班'>2班</option>
+<option value='3班'>3班</option>
+<option value='4班'>4班</option>
+<option value='5班'>5班</option>
+<option value='6班'>6班</option>
+<option value='7班'>7班</option>
+<option value='8班'>8班</option>
+<option value='9班'>9班</option>
+<option value='10班'>10班</option>
+<option value='11班'>11班</option>
+<option value='12班'>12班</option>
+<option value='13班'>13班</option>
+<option value='14班'>14班</option>
+<option value='15班'>15班</option>
+<option value='16班'>16班</option>
+<option value='17班'>17班</option>
+<option value='18班'>18班</option>
+<option value='19班'>19班</option>
+<option value='20班'>20班</option>
+<option value='21班'>21班</option>
+<option value='22班'>22班</option>
+<option value='23班'>23班</option>
+<option value='24班'>24班</option>
+<option value='25班'>25班</option>
+<option value='26班'>26班</option>
+<option value='27班'>27班</option>
+<option value='28班'>28班</option>
+<option value='29班'>29班</option>
+<option value='30班'>30班</option>
+<option value='31班'>31班</option>
+<option value='32班'>32班</option>
+<option value='33班'>33班</option>
+<option value='34班'>34班</option>
+<option value='35班'>35班</option>
+<option value='36班'>36班</option>
+<option value='37班'>37班</option>
+<option value='38班'>38班</option>
+<option value='39班'>39班</option>
+<option value='40班'>40班</option>
+
+</select>
+</td>
+
+
+
+<td><input name='mobile' class="small" pattern='mobi' empty alt='手机号码格式不正确' type="text" /></td>
+</tr>				
+			
+				<tr>
+					
+					<td>设为默认</td><td> <label><input name='default' type='checkbox' value='1'></label></td>
+				</tr>
+				<tr>
+				
+					
+						<td><label class="btn"><input type="submit" value="保存" /></label></td>
+                                                 <td> </td>
+
+						<td><label class="btn"><input type="reset" value="取消" /></label></td>
+					
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+
+<script type='text/javascript'>
+//DOM加载完毕
+$(function(){
+	//初始化地域联动
+	template.compile("areaTemplate",areaTemplate);
+
+	createAreaSelect('province',0,'');
+});
+
+/**
+ * 生成地域js联动下拉框
+ * @param name
+ * @param parent_id
+ * @param select_id
+ */
+function createAreaSelect(name,parent_id,select_id)
+{
+	//生成地区
+	$.getJSON("{url:/block/area_child}",{"aid":parent_id,"random":Math.random()},function(json)
+	{
+		$('[name="'+name+'"]').html(template.render('areaTemplate',{"select_id":select_id,"data":json}));
+	});
+}
+
+//修改地址
+function form_back(obj)
+{
+    //自动填充表单
+	var form = new Form('form');
+	form.init(obj);
+
+	createAreaSelect('province',0,obj.province);
+	createAreaSelect('city',obj.province,obj.city);
+	createAreaSelect('area',obj.city,obj.area);
+
+	createAreaSelect('school',obj.area,obj.school);
+
+}
+
+//清空表单
+function form_empty()
+{
+	var formInstance = new Form('form');
+	$('form[name="form"] input[name]').each(function(){
+		formInstance.setValue(this.name,'');
+	});
+
+	createAreaSelect('province',0,'');
+	$('select[name="city"]').empty();
+	$('select[name="area"]').empty();
+	
+}
+</script>

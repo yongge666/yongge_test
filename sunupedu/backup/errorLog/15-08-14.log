@@ -1,0 +1,7 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: img
+errFile:IAPP_PATH/runtime\default\site\comments_list.php
+errLine:164
+errTime:15-08-14 11:45:48
+<\ERROR_INFO>

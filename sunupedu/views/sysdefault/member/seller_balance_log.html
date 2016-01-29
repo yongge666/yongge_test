@@ -1,0 +1,37 @@
+ 
+<div class="headbar">
+	<div class="position"><span>会员</span><span>></span><span>商户管理</span><span>></span><span>商户余额日志</span></div>
+</div>
+
+<div class="content_box">
+	<div class="content form_content">
+		<table class="list_table" >
+			<colgroup>
+				<col width="180px" />
+				<col width="180px" />
+				<col width="180px" />
+				<col />
+			</colgroup>
+			<thead>
+				<tr>
+					<th>本次扣除的余额</th>
+					<th>本次剩余余额</th>
+					<th>时间</th>
+				</tr>
+			</thead>
+			<tbody>
+			
+			{foreach:items=$this->log_list}
+			<tr>
+				<td title="">{$item['deduct_balance']}</td>
+				<td title="">{$item['surplus_balance']}</td>
+				<td title="">{$item['time']}</td>
+			</tr>
+			{/foreach}
+	 
+			</tbody>
+		</table>
+	</div>
+</div>
+
+ 

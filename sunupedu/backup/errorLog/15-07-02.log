@@ -1,0 +1,21 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: 高中一年级
+errFile:IAPP_PATH/controllers\simple.php
+errLine:1978
+errTime:15-07-02 21:21:36
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: area_name
+errFile:IAPP_PATH/controllers\seller.php
+errLine:323
+errTime:15-07-02 22:40:05
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index: area_name
+errFile:IAPP_PATH/controllers\seller.php
+errLine:323
+errTime:15-07-02 22:40:56
+<\ERROR_INFO>
