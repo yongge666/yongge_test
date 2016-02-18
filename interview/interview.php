@@ -32,18 +32,71 @@ echo '<hr/>';
 //数组转字符串：
 print_r(implode(array('a'=>'aaa','b'=>'bbb')));
 echo '<hr/>';
-//3.字符串查找（截取网址文件部分）strpos,strrpos
+//3.字符串查找strpos,strrpos
 $str = '/web/a/b/index.html';
 $index = strrpos($str,'/');
+//截取网址文件部分
 echo substr($str,$index+1);//包含索引位置到结尾部分
 echo basename($str);//取文件名
 
 echo '<hr/>';
-
+//截取网址路径部分
 echo substr($str,0,$index);
 echo dirname($str);//取路径名
 echo '<hr/>';
+//日期反转
+$date = '18/02/2016';
+echo preg_replace('/(\d+)\/(\d+)\/(\d+)/','$3/$2/$1',$date);
+echo '<hr/>';
+//写一个函数，尽可能高校的从一个url里提取文件扩展名
+$url = 'http://www.test.com.cn/abc/dsg/del.inc.php';
+$path = pathinfo($url);
+//var_dump(parse_url($url));
+echo $path['extension'];// ["basename"]=> string(11) "del.inc.php
+echo '<hr/>';
+//复杂情况
+$url1 = 'http://www.test.com.cn/abc/dsg/del.inc.php?id=6';
+$arr = parse_url($url1);
+$path1=$arr['path'];
+$arr2 = pathinfo($path1);
+//print_r($arr2);
+echo $arr2['extension'];
 
+echo '<hr/>';
+
+
+echo '<hr/>';
+
+/**
+ * sql语句
+ * 1.从login表中选出name字段包含admin字段的前十条结果
+ * select * from login where name like '%admin%' limit 10 order by id;
+ * 2通配符：
+ * 我们使用like和not like加上一个带通配符的字符串就可以了。共有两个通配符”_”(单个字符)和”&”（多个字符）
+select concat(first_namem,' ‘,last_name) as name,
+where last_name like ‘W%'; //找到以Ｗ或w开头的人
+where last_name like ‘％W%'; //找到名字里面Ｗ或w开头的人
+ * 3.使用扩展正则
+ *SELECT * FROM `sunup_user` where username REGEXP 'test[0-9]+';
+ * “.”匹配任何单个的字符。
+一个字符类“[...]”匹配在方括号内的任何字符。例如，“[abc]”匹配“a”、“b”或“c”。为了命名字符的一个范围，使用一个“-”。“[a-z]” 匹配任何小写字母，而“[0-9]”匹配任何数字。
+“ * ”匹配零个或多个在它前面的东西。例如，“x*”匹配任何数量的“x”字符，“[0-9]*”匹配的任何数量的数字，而“.*”匹配任何数量的任何东西。
+正则表达式是区分大小写的，但是如果你希望，你能使用一个字符类匹配两种写法。例如，“[aA]”匹配小写或大写的“a”而“[a-zA-Z]”匹配两种写法的任何字母。
+如果它出现在被测试值的任何地方，模式就匹配(只要他们匹配整个值，SQL模式匹配)。
+为了定位一个模式以便它必须匹配被测试值的开始或结尾，在模式开始处使用“^”或在模式的结尾用“$”。
+为了说明扩展正则表达式如何工作，上面所示的LIKE查询在下面使用REGEXP重写：
+
+为了找出以“b”开头的名字，使用“^”匹配名字的开始并且“[bB]”匹配小写或大写的“b”：
+mysql> SELECT * FROM pet WHERE name REGEXP "^[bB]";
+ * 4.变量：
+ * 变量的命名规格是：@name, 赋值语法是 @name:=value ( pascal?) 使用起来也简单：
+select @birth:=birth from president
+where last_name ='adsltiger'; //执行完成后我们就就会有一个@birth变量可用
+用一下试试：
+select concat(first_namem,' ‘,last_name) as name from president
+where birth<@birth order by birth; //看看那些人比我大！
+
+ */
 /**
 1.对象间的赋值默认是引用传值，指向同一个内存空间；只有指向同意内存地址的两个对象才相等；
 1.只要在实例化后在类外改变了属性和方法，不管在类内还是类外调用都是改变后的值；
