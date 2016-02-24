@@ -1,0 +1,51 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动漫网</title>
+    <link rel="stylesheet" href="/yongge/comic/Public/bootstrap3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">动漫乐园</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-right">
+                    <li class="active"><a href="#">查看动漫</a></li>
+                </ul>
+                <ul class="nav navbar-right">
+                    <li class=""><a href="#">发布动漫</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="starter-template">
+            <h1>Bootstrap starter template</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        </div>
+
+    </div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+    <script src="/yongge/comic/Public/bootstrap3.3.5/js/jquery-1.12.0.min.js"></script>
+    <script src="/yongge/comic/Public/bootstrap3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/yongge/comic/Public/bootstrap3.3.5/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/yongge/comic/Public/bootstrap3.3.5/js/holder2.9.1.min.js"></script>
+</body>
+</html>

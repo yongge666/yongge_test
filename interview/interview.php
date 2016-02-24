@@ -1,4 +1,4 @@
-<?php
+G<?php
 header('Content-Type:text/html;charset=utf-8');
 /**
  * Created by PhpStorm.
@@ -358,3 +358,4 @@ $p2=new Person;
 $p1->say();
 echo $p1->name='李勇';
 echo $p2->age;
+    

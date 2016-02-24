@@ -301,7 +301,7 @@
 		<ul class="display_list clearfix m_10">
 			<?php foreach($resultData as $key => $item){?>
 
-                         <?php if(($item['name'])){?>
+                         <?php if((isset($item['area']))){?>
 卖家区域是：              <?php echo isset($item['area'])?$item['area']:"";?>
 
                           <?php }?>
