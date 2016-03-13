@@ -64,11 +64,136 @@ echo $arr2['extension'];
 
 echo '<hr/>';
 
+//字符串个数strlen($str)
+/**
+ * 防止sql注入：
+ * 1.$SERVER['HTTP_REFERER']判断提交来源；
+ * 2.开启addslashes和magic_quotes_gpc
+ * 3.使用预处理（PDO）
+ */
+/**
+ * 防盗链
+ * 1.利用apache或nginx的rewrite重写功能基于来源做判断
+ * 2.通过$SERVER['HTTP_REFERER'];判断
+ * $urlar=parse_url($_SESSION['HTTP_REFERER']);
+ *  if($_SERVER['HTTP_HOST']   !=   $urlar["host"]   &&   $urlar["host"]   !=   "202.102.110.204"   &&   $urlar["host"]   !=   "http://blog.163.com/fantasy_lxh/")   {
+        header("location:   login.php");
+    exit;
+    }
+ *
+ *
+ */
+
+/**
+ * 用php写出一个安全的用户登录系统需要注意哪些方面
+ * 1.加验证码
+ * 2.三次失败锁定
+ * 3.密码不能ctrl+V，html加入oncopy="return false;" onpaste="return false;" oncut="return false;"
+ * 4.密码使用小键盘
+ * 5.动态口令卡
+ * 
+ *
+ */
+// echo false;结果为空
+echo false;
+echo true;//1
+echo '<hr/>';
+echo ord('a');//转化为ASCll码
+echo '<hr/>';
+echo chr(97);//将ascll码转化为string
+echo '<hr/>';
+$arr=array('a'=>'aaaaa','b'=>'bbbbb');
+echo "A is {$arr['a']}";//对于双引号内的数组引用如果下标加了引号则该变量一定要加{}，否则会报错
+//静态变量的值每次执行后会保存在内存中，不会自动销毁
+echo '<hr/>';
+//heredoc技术
+//session.use_trans_sid=1;(当客户端禁用cookie时，浏览器自动带上session_id,其他页面根据session_id取值)
+echo '<hr/>';
+/**
+ * 把字符串转换在数组可使用函数有str_split()(每个字符作为一个数组元素)、explode()//每个单词作为一个数组元素,preg_split()函数
+ * 把数组转换在字符串implode(),join()
+ *
+ */
+//写一个函数将open_door转化成OpenDoor
+function _Ucwords($str){
+    return str_replace(' ','',ucwords(str_replace('_',' ',$str)));
+}
+echo _Ucwords('open_door');
+echo '<hr/>';
+//或者
+function Ucword($str){
+    $arr = explode('_',$str);
+    foreach($arr as $k=>$v){
+        $arr[$k]=ucfirst($v);
+    }
+    return implode($arr);
+
+}
+echo Ucword('get_by_id');
+
+echo '<hr/>';
+//将12345657678转化成12，345，657，678
+$number='12345657678';
+number_format($number);
+//或者
+function my_number_format($number){
+    $num=strrev($number);//反转字符串
+    $arr=str_split($num,3);
+    $num=strrev(implode(',',$arr));
+    //也可以写作$num=strrev(join(',',$arr));join()是implode的别名
+}
+
+echo '<hr/>';
+/**
+ * 文件目录操作
+ */
+//通过 PHP 函数的方式对目录进行遍历，写出程序
+function dirList($path){
+    $arr =scandir($path);
+    foreach($arr as $file){
+        if($file !='.' && $file !='..'){
+            $pathNext =$path.'/'.$file;
+            echo $pathNext;
+            if(is_dir($pathNext)){
+                dirList($pathNext);
+            }else{
+                echo '<p>'.$pathNext.'</p>';
+            }
+        }
+    }
+
+}
+$path='D://WWW';
+dirList($path);
+echo '<hr/>';
+
 
 echo '<hr/>';
 
+
+echo '<hr/>';
+
+echo '<hr/>';
+
+
+echo '<hr/>';
+
+
+echo '<hr/>';
+
+
+echo '<hr/>';
+
+echo '<hr/>';
+
+
+echo '<hr/>';
 /**
  * sql语句
+//有 A(id,sex,par,c1,c2),B(id,age,c1,c2)两张表，其中 A.id 与 B.id 关联， 现在要求写一条SQL 语句，将 B 中 age>50 的记录的 c1、c2 更新到 A 表中统一记录中的 c1、c2 字段中。
+$sql="update A,B set A.c1=B.c1,A.c2=B.c2 where A.id=B.id and B.age>50";
+
+ *
  * 1.从login表中选出name字段包含admin字段的前十条结果
  * select * from login where name like '%admin%' limit 10 order by id;
  * 2通配符：
@@ -95,6 +220,7 @@ where last_name ='adsltiger'; //执行完成后我们就就会有一个@birth变
 用一下试试：
 select concat(first_namem,' ‘,last_name) as name from president
 where birth<@birth order by birth; //看看那些人比我大！
+mysql重启后索引会回收
 
  */
 /**
@@ -129,6 +255,13 @@ const 总是大小写敏感，然而define()可以通过第三个参数来定义
 20.对象的回收机制：
  **/
 
+/**
+ * 接口和抽象类的区别：
+ * 1.抽象类可以有抽象的方法，而接口中只能有抽象方法
+ * 2.一个类可以继承多个接口但只能继承一个抽象类
+ * 接口通过implements实现，抽象类通过extends继承
+ */
+
 class Human{
     public $name='张三';
     public $gender=NULL;
@@ -153,6 +286,18 @@ unset($a);//注意这里的unset对对象是无效的,因为还有$b,$c,$d指向
 echo '<hr />';
 //-----------------------兄弟连面向对象-------------------------------
 
+
+/**
+ * 数据库设计时，常遇到的性能瓶颈有哪些，常有的解决方案？
+1) 查询速度慢  ,避免全盘扫描,因为全盘扫描会导致大量磁盘 I/O 操作 用 sphinx 来解
+决
+2) 读写过于频繁 读写分离来做
+3) 设置主从,并做好冗余备份
+4) 数据库压力过大 采用分布式数据库负载均衡来解决
+5) memcache 缓存层
+6) 链接数据库使用 PDO,或者 mysqli 预处理缓存字段
+7) 索引优化
+ */
 /**
  *     面向对象基础
  *声明：[修饰类的关键字]class 类名{
@@ -358,4 +503,35 @@ $p2=new Person;
 $p1->say();
 echo $p1->name='李勇';
 echo $p2->age;
-    
+
+/**
+ *
+ * javascript
+ */
+/*
+explore=navigator.userAgent;
+if(explore.search('MSIE')>=0){
+    alert('ie 浏览器');
+}else{
+    alert('非IE')
+}
+ */
+/**
+ * linux基础
+ * 1.如何实现每天 0 点钟重新启动服务器
+ crontab -e
+ 分 时 日 月 周
+ 00 00 * * * /sbin/init 6
+
+ *
+ #!/bin/bash
+ chown root /path/to
+
+ *
+ //shell遍历目录的脚本
+#!bin/bash
+ tree
+ chmod 777 tree.sh
+
+
+ */
