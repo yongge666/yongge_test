@@ -63,8 +63,66 @@ $arr2 = pathinfo($path1);
 echo $arr2['extension'];
 
 echo '<hr/>';
+/**
+ *一. 字符串函数
+strlen($str)
+addslashes($str)在预定义字符前加/；预定义字符是：单引号（'）双引号（"）反斜杠（\）NULL，也可在php.ini中设置magic_quotes_gpc=on
+get_magic_quotes_gpc()检测字符串是否经过转义，
+strpos() 函数用于检索字符串内指定的字符或文本。如果找到匹配，则会返回首个匹配的字符位置。如果未找到匹配，则将返回 FALSE。
+strtolower()  //所有大写转小写；
+strtoupper — 将字符串转化为大写
+ucfirst — 将字符串的首字母转换为大写
+ucwords — 将字符串中每个单词的首字母转换为大写
+strstr($str,search,before_search)（别名strchr） — 默认返回$search以及之后的部分，若before_search为true则返回之前的部分。如果想要不区分大小写，请使用 stristr()。
+chop($str,$charlist)	删除$charlist指定的字符串，若charlist 参数为空，则移除以下字符："\0" - NULL,"\t" - 制表符,"\n" - 换行,"\x0B" - 垂直制表符,"\r" - 回车," " - 空格。
+chunk_split($str,length,end)	把字符串分割为一系列更小的部分,默认以默认是 \r\n，可通过end指定分隔符，length几位一分隔，默认是 76
 
-//字符串个数strlen($str)
+ */
+
+/**
+ * 二.数组函数
+sizeof()	count() 的别名
+pos()	current() 的别名
+implode()   join()的别名，将数组分隔成字符串
+array_reduce($arr,fun)	通过使用用户自定义函数，将数组转化为字符串。
+array_rand($arr,n)随机取出数组的一个键
+array_unshift($arr)向前插入数组元素，可以传入多个，返回插入的个数
+array_push($arr)从尾部插入数组元素，返回插入个数
+array_shift($arr)从弹出数组元素，从前面出栈，每次删除一个
+array_pop($arr)从弹出数组元素，从后面出栈，每次删除一个
+aunset($arr[2]); 删除指定数组元素
+array_flip($arr);交换数组的键和值
+array_unique()	删除数组中的重复值
+array_count_values()	用于统计数组中所有值出现的次数。
+array_intersect()	比较数组，返回交集（只比较键值）。
+array_intersect_assoc()	比较数组，返回交集（比较键名和键值）。
+array_intersect_key()	比较数组，返回交集（只比较键名）
+array_filter()用回调函数过滤数组中的元素。
+array_reverse()	以相反的顺序返回数组。
+array_search() 搜索数组中给定的值并返回键名。
+array_combine($arr1,$arr2)将第一个数组的值作为第二个数组的键合并为一个数组
+array_merge_recursive() 函数把一个或多个数组合并为一个数组。该函数与 array_merge() 函数的区别在于处理两个或更多个数组元素有相同的键名时。array_merge_recursive() 不会进行键名覆盖，而是将多个相同键名的值递归组成一个数组。
+array_map()	把数组中的每个值发送到用户自定义函数，返回新的值。
+array_slice($arr,2)	去掉数组前2个元素，返回数组剩余的部分
+array_product()	计算数组中所有值的乘积
+//数组排序
+7.sort() - 以升序对数组排序
+8.rsort() - 以降序对数组排序
+9.asort() - 根据值，以升序对关联数组进行排序
+10.ksort() - 根据键，以升序对关联数组进行排序
+11.arsort() - 根据值，以降序对关联数组进行排序
+12.krsort() - 根据键，以降序对关联数组进行排序
+13.shuffle()	将数组打乱
+
+ */
+
+
+
+
+
+
+
+
 /**
  * 防止sql注入：
  * 1.$SERVER['HTTP_REFERER']判断提交来源；
@@ -110,8 +168,8 @@ echo '<hr/>';
 //session.use_trans_sid=1;(当客户端禁用cookie时，浏览器自动带上session_id,其他页面根据session_id取值)
 echo '<hr/>';
 /**
- * 把字符串转换在数组可使用函数有str_split()(每个字符作为一个数组元素)、explode()//每个单词作为一个数组元素,preg_split()函数
- * 把数组转换在字符串implode(),join()
+ * 把字符串转换在数组可使用函数有str_split()(每个字符作为一个数组元素)、explode()//每个单词作为一个数组元素,preg_split()
+ * 把数组转换在字符串implode(),join()，array_reduce($arr,fun)	通过使用用户自定义函数，将数组转化为字符串。
  *
  */
 //写一个函数将open_door转化成OpenDoor
@@ -166,15 +224,23 @@ function dirList($path){
 $path='D://WWW';
 dirList($path);
 echo '<hr/>';
-
-
-echo '<hr/>';
-
-
-echo '<hr/>';
+$a=array("red","green","blue","yellow","brown");
+$random_keys=array_rand($a,3); //随机取n个键
+var_dump($random_keys);
+var_dump($a[$random_keys[1]]);
 
 echo '<hr/>';
+$str = "Shanghai";
+echo chunk_split($str,2);
 
+echo '<hr/>';
+$str = 'sdgdg"sdsds"\//gh.ghnullNULL\'\'';
+echo addslashes($str);
+//echo($str);
+
+echo '<hr/>';
+$str='i am da niu and you?';
+echo strstr($str,'am');
 
 echo '<hr/>';
 
